@@ -1,8 +1,8 @@
 import {combineReducers} from "redux";
 
-import list from "./ducks/listDuck"; //Update me
+//IMPORT REDUCERS
 
 export default combineReducers({
-  list//,
-  //otherThing
+  // REDUCERS
+
 });
