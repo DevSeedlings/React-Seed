@@ -1,8 +1,8 @@
 import {combineReducers} from "redux";
 
-import thing from "./ducks/thingDuck"; //Update me
+import list from "./ducks/listDuck"; //Update me
 
 export default combineReducers({
-  thing//,
+  list//,
   //otherThing
 });

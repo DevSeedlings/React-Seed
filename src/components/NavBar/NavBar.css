@@ -1,0 +1,49 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navBar {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+}
+
+.navBar:hover {
+  opacity: 1;
+}
+
+.navBar h1 {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navBar ul {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  padding: 0px;
+  margin: 0;
+  text-align: right;
+  padding-right: 20px;
+  height: 10vh;
+  width: 50vw;
+}
+
+.navBar ul:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
+.navBar li {
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
+  padding-left: 20px;
+}
